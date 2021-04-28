@@ -3,7 +3,7 @@
   "main": "lib/main.js",
   "type": "module",
   "description": "A Hobby-RPC client for browsers",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Anatoly Chernov <chertoly@gmail.com>",
   "license": "ISC",
   "repository": {
