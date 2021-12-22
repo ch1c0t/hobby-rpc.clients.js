@@ -21,9 +21,6 @@ RPC = ({ url, token }) ->
         if response.ok
           response.json()
         else
-          message = await response.text()
-          Promise.reject message
+          Promise.reject response.status
 
-pub = { RPC }
 export { RPC }
-export default pub
