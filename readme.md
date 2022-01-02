@@ -23,5 +23,5 @@ The remote server at https://some.domain is expected to implement
 
 `output` would be an object deserialized from JSON.
 
-[hobby_rpc]: https://github.com/ch1c0t/hobby-rpc
+[hobby_rpc]: https://github.com/ch1c0t/hobby-rpc.protocol
 [fetch_api]: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
