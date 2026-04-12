@@ -15,8 +15,7 @@ RPC = ({ url, token }) ->
     body = JSON.stringify body
     c = { config..., body }
       
-    window
-      .fetch url, c
+    fetch url, c
       .then (response) ->
         if response.ok
           response.json()

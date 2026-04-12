@@ -3,7 +3,7 @@
   "main": "lib/main.js",
   "type": "module",
   "description": "A Hobby-RPC client for browsers",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Anatoly Chernov <chertoly@gmail.com>",
   "license": "ISC",
   "repository": {
@@ -17,6 +17,6 @@
     "start": "coffee --watch --compile --output lib src"
   },
   "devDependencies": {
-    "coffeescript": "^2.5.1"
+    "coffeescript": "^2.7.0"
   }
 }
