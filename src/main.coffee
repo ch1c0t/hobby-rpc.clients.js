@@ -2,8 +2,10 @@ RPC = ({ url, token }) ->
   config =
     method: 'POST'
     headers:
-      Authorization: token
       'Content-Type': 'application/json'
+
+  if token
+    config.headers.Authorization = token
 
   (name, input) ->
     body = if input
